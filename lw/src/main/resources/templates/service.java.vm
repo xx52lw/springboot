@@ -1,0 +1,21 @@
+package ${package.Service};
+
+import ${package.Entity}.${entity};
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+
+import java.util.Map;
+
+/**
+ * <p>
+ * ${table.comment}
+ * </p>
+ *
+ * @author ${author}
+ * @since ${date}
+ */
+public interface ${entity}Service extends ${superServiceClass}<${entity}> {
+
+    IPage<${entity}> selectByPage(Page page, Map<String, Object> cm);
+}

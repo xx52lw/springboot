@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dock.lw.code.mapper.UserReportMapper">
+
+
+    <sql id="Base_Column_List">
+	    id, create_by, create_at, update_by, update_at
+		, user_id
+		, org_id
+		, dept_id
+    </sql>
+
+	<select id="selectByPage" resultType="com.dock.lw.code.model.UserReport">
+		select
+        <include refid="Base_Column_List"/>
+		from user_report
+		<where>
+			<if test='cm.userId != null and cm.userId != "" '>
+				and	user_id =#{cm.userId}
+			</if>
+			<if test='cm.orgId != null and cm.orgId != "" '>
+				and	org_id =#{cm.orgId}
+			</if>
+			<if test='cm.deptId != null and cm.deptId != "" '>
+				and	dept_id =#{cm.deptId}
+			</if>
+		</where>
+		order by create_at desc
+	</select>
+
+</mapper>

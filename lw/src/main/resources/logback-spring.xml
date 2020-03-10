@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="false" scan="false">
+    <!--
+        debug: 当此属性设置为true时，将打印出logback内部日志信息，实时查看logback运行状态。默认值为false。
+        scan: 当此属性设置为true时，配置文件如果发生改变，将会被重新加载，默认为true。
+        scanPeriod: 设置监测配置文件是否有修改的时间间隔，如果没有给出时间单位，默认单位是毫秒。当scan为true时，此属性生效。默认的时间间隔为1分钟。
+     -->
+    <springProperty scop="context" name="spring.application.name" source="spring.application.name" defaultValue="dock-lw"/>
+    <property name="log.path" value="logs/${spring.application.name}" />
+
+    <conversionRule conversionWord="clr" converterClass="org.springframework.boot.logging.logback.ColorConverter" />
+
+    <property name="LOG_PATTERN" value="%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %-5level %clr([${spring.application.name:-},%X{X-B3-TraceId:-},%X{X-B3-SpanId:-},%X{X-B3-ParentSpanId:-},%X{X-Span-Export:-}]){yellow} [%thread] [%logger{50}] %file:%line - %msg%n">
+    </property>
+
+    <!-- Console log output -->
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+            <charset>utf8</charset>
+        </encoder>
+    </appender>
+
+    <!-- Log file debug output -->
+    <appender name="debug" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${log.path}/debug.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${log.path}/%d{yyyy-MM-dd}/debug.%d{yyyy-MM-dd_HH}.%i.log.gz</fileNamePattern>
+            <maxFileSize>50MB</maxFileSize>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+            <charset>utf8</charset>
+        </encoder>
+    </appender>
+
+    <!-- Log file error output -->
+    <appender name="error" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${log.path}/error.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${log.path}/%d{yyyy-MM-dd}/error.%d{yyyy-MM-dd_HH}.%i.log.gz</fileNamePattern>
+            <maxFileSize>50MB</maxFileSize>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+            <charset>utf8</charset>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level>
+        </filter>
+    </appender>
+
+    <logger name="com.dock.lw" level="debug" additivity="false">
+        <appender-ref ref="console"/>
+        <appender-ref ref="debug"/>
+        <appender-ref ref="error"/>
+    </logger>
+
+    <!-- Level: FATAL 0  ERROR 3  WARN 4  INFO 6  DEBUG 7
+    <root level="DEBUG">
+        <appender-ref ref="console" />
+        <appender-ref ref="debug" />
+        <appender-ref ref="error" />
+    </root>
+    -->
+    <!-- 开发、测试环境 -->
+    <springProfile name="local,dev,test">
+        <root level="info">
+            <appender-ref ref="console"/>
+            <appender-ref ref="debug"/>
+            <appender-ref ref="error"/>
+        </root>
+    </springProfile>
+
+    <!-- 生产环境 -->
+    <springProfile name="prod">
+        <root level="info">
+            <appender-ref ref="console"/>
+            <appender-ref ref="debug"/>
+            <appender-ref ref="error"/>
+        </root>
+    </springProfile>
+
+</configuration>
