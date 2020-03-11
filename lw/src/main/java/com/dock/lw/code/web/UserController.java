@@ -35,6 +35,7 @@ public class UserController {
 	@ApiOperation(value = "分页查询用户",response=User.class)
 	@PostMapping(value = "/getByPage")
 	public IPage<User> query(@RequestBody IPageDto param) {
-		return userService.selectByPage(param.getPage(), param.getCm());
+		IPage<User> p = userService.selectByPage(param.getPage(), param.getCm());
+		return p;
 	}
 }
