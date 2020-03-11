@@ -76,11 +76,11 @@ public class Generator {
 
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://10.0.37.11:3306/ncov?characterEncoding=utf8&serverTimezone=UTC");
+        dsc.setUrl("jdbc:mysql://127.0.0.1:3306/dock?characterEncoding=utf8&serverTimezone=UTC");
         dsc.setDbType(DbType.MYSQL);
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername("root");
-        dsc.setPassword("ccdcccdc");
+        dsc.setPassword("root");
 
         mpg.setDataSource(dsc);
 
@@ -123,9 +123,10 @@ public class Generator {
         // 自定义实体，公共字段
         strategy.setSuperEntityColumns(
                 new String[]{"id", "create_by", "create_at", "update_by", "update_at"});
-
+        // 表头
+        strategy.setTablePrefix("tb_");
 //        strategy.setInclude(scanner("表名，多个英文逗号分割").split(","));
-        strategy.setInclude(new String[]{"user_report"});
+        strategy.setInclude(new String[]{"tb_user"});
         strategy.setControllerMappingHyphenStyle(true);
 
         mpg.setStrategy(strategy);

@@ -30,7 +30,7 @@ import ${providerClassPackage};
  * @since ${date}
  */
 @RestController
-@RequestMapping("/${table.entityPath}")
+@RequestMapping({Constant.PLATFORM.APP +"/${table.entityPath}",Constant.PLATFORM.MANAGE +"/${table.entityPath}"})
 @Api(value = "${table.comment}接口", description = "${table.comment}接口")
 #if(${superControllerClass})
 public class ${table.controllerName} extends ${superControllerClass} {

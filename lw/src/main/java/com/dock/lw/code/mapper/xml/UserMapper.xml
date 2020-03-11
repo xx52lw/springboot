@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dock.lw.code.mapper.UserMapper">
+
+
+    <sql id="Base_Column_List">
+	    id, create_by, create_at, update_by, update_at
+		, username
+		, password
+		, nickname
+		, open_id
+		, user_type
+		, email
+		, avatar
+		, sex
+		, country
+		, province
+		, city
+		, union_id
+		, language
+		, longitude
+		, latitude
+    </sql>
+
+	<select id="selectByPage" resultType="com.dock.lw.code.model.User">
+		select
+        <include refid="Base_Column_List"/>
+		from tb_user
+		<where>
+			<if test='cm.username != null and cm.username != "" '>
+				and	username =#{cm.username}
+			</if>
+			<if test='cm.password != null and cm.password != "" '>
+				and	password =#{cm.password}
+			</if>
+			<if test='cm.nickname != null and cm.nickname != "" '>
+				and	nickname =#{cm.nickname}
+			</if>
+			<if test='cm.openId != null and cm.openId != "" '>
+				and	open_id =#{cm.openId}
+			</if>
+			<if test='cm.userType != null and cm.userType != "" '>
+				and	user_type =#{cm.userType}
+			</if>
+			<if test='cm.email != null and cm.email != "" '>
+				and	email =#{cm.email}
+			</if>
+			<if test='cm.avatar != null and cm.avatar != "" '>
+				and	avatar =#{cm.avatar}
+			</if>
+			<if test='cm.sex != null and cm.sex != "" '>
+				and	sex =#{cm.sex}
+			</if>
+			<if test='cm.country != null and cm.country != "" '>
+				and	country =#{cm.country}
+			</if>
+			<if test='cm.province != null and cm.province != "" '>
+				and	province =#{cm.province}
+			</if>
+			<if test='cm.city != null and cm.city != "" '>
+				and	city =#{cm.city}
+			</if>
+			<if test='cm.unionId != null and cm.unionId != "" '>
+				and	union_id =#{cm.unionId}
+			</if>
+			<if test='cm.language != null and cm.language != "" '>
+				and	language =#{cm.language}
+			</if>
+			<if test='cm.longitude != null and cm.longitude != "" '>
+				and	longitude =#{cm.longitude}
+			</if>
+			<if test='cm.latitude != null and cm.latitude != "" '>
+				and	latitude =#{cm.latitude}
+			</if>
+		</where>
+		order by create_at desc
+	</select>
+
+</mapper>

@@ -406,3 +406,226 @@ ns         %     Task name
 
 [2m2020-03-10 13:37:11.497[0;39m INFO  [33m[dock-lw,,,,][0;39m [SpringContextShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
 [2m2020-03-10 13:37:11.509[0;39m INFO  [33m[dock-lw,,,,][0;39m [SpringContextShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
+[2m2020-03-11 16:18:51.405[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [com.dock.lw.LwApplication] StartupInfoLogger.java:55 - Starting LwApplication on liweideiMac.local with PID 62707 (/Users/liwei/Desktop/work/git/springboot/lw/target/classes started by liwei in /Users/liwei/Desktop/work/git/springboot/lw)
+[2m2020-03-11 16:18:51.408[0;39m DEBUG [33m[dock-lw,,,,][0;39m [main] [com.dock.lw.LwApplication] StartupInfoLogger.java:56 - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+[2m2020-03-11 16:18:51.409[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [com.dock.lw.LwApplication] SpringApplication.java:655 - The following profiles are active: dev
+[2m2020-03-11 16:18:52.422[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-03-11 16:18:52.426[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2020-03-11 16:18:52.463[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+[2m2020-03-11 16:18:53.224[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8083 (http)
+[2m2020-03-11 16:18:53.234[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8083"]
+[2m2020-03-11 16:18:53.234[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2m2020-03-11 16:18:53.235[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+[2m2020-03-11 16:18:53.313[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.a.c.c.ContainerBase.[Tomcat].[localhost].[/lw]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2m2020-03-11 16:18:53.314[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1839 ms
+[2m2020-03-11 16:18:54.644[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2m2020-03-11 16:18:54.992[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+[2m2020-03-11 16:18:55.005[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 2 custom documentation plugin(s)
+[2m2020-03-11 16:18:55.032[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2m2020-03-11 16:18:55.198[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2m2020-03-11 16:18:55.207[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8083"]
+[2m2020-03-11 16:18:55.229[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8083 (http) with context path '/lw'
+[2m2020-03-11 16:18:55.234[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [com.dock.lw.LwApplication] StartupInfoLogger.java:61 - Started LwApplication in 4.389 seconds (JVM running for 5.235)
+[2m2020-03-11 16:19:06.399[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-1] [o.a.c.c.ContainerBase.[Tomcat].[localhost].[/lw]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2020-03-11 16:19:06.400[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-1] [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2m2020-03-11 16:19:06.408[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-1] [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 8 ms
+[2m2020-03-11 16:19:06.437[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-2] [com.dock.lw.common.handler.ApiInterceptor] ApiInterceptor.java:44 - reqURI = /lw/error, reqMethod = GET, token = null
+[2m2020-03-11 16:19:09.359[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-1] [com.dock.lw.common.handler.ApiInterceptor] ApiInterceptor.java:44 - reqURI = /lw/error, reqMethod = GET, token = null
+[2m2020-03-11 16:19:09.505[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-2] [io.lettuce.core.EpollProvider] EpollProvider.java:68 - Starting without optional epoll library
+[2m2020-03-11 16:19:09.507[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-2] [io.lettuce.core.KqueueProvider] KqueueProvider.java:70 - Starting without optional kqueue library
+[2m2020-03-11 16:19:09.725[0;39m WARN  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-1] [c.d.lw.common.handler.BusinessInterceptorHandler] BusinessInterceptorHandler.java:42 - 用户未登录或token过期 token = null
+[2m2020-03-11 16:19:09.732[0;39m WARN  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-2] [c.d.lw.common.handler.BusinessInterceptorHandler] BusinessInterceptorHandler.java:42 - 用户未登录或token过期 token = null
+[2m2020-03-11 16:19:09.938[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-3] [com.dock.lw.common.handler.AccessLog] AccessLog.java:53 - request = []
+[2m2020-03-11 16:19:09.952[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-3] [com.dock.lw.common.handler.AccessLog] AccessLog.java:55 - response = {"body":{"apisSorter":"alpha","defaultModelRendering":"schema","docExpansion":"none","jsonEditor":false,"showRequestHeaders":true,"supportedSubmitMethods":["get","post","put","delete","patch"]},"headers":{"body":{"apisSorter":"alpha","defaultModelRendering":"schema","docExpansion":"none","jsonEditor":false,"showRequestHeaders":true,"supportedSubmitMethods":["get","post","put","delete","patch"]},"headers":{},"statusCode":"OK","statusCodeValue":200},"statusCode":"OK","statusCodeValue":200}
+[2m2020-03-11 16:19:09.953[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-3] [com.dock.lw.common.handler.AccessLog] AccessLog.java:59 - StopWatch 'springfox.documentation.swagger.web.ApiResourceController': running time = 18173434 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+018173434  100%  uiConfiguration
+
+[2m2020-03-11 16:19:09.985[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-4] [com.dock.lw.common.handler.AccessLog] AccessLog.java:53 - request = []
+[2m2020-03-11 16:19:09.989[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-4] [com.dock.lw.common.handler.AccessLog] AccessLog.java:55 - response = {"body":[{"location":"/v2/api-docs?group=app","name":"app","swaggerVersion":"2.0"},{"location":"/v2/api-docs?group=manage","name":"manage","swaggerVersion":"2.0"}],"headers":{"body":[{"location":"/v2/api-docs?group=app","name":"app","swaggerVersion":"2.0"},{"location":"/v2/api-docs?group=manage","name":"manage","swaggerVersion":"2.0"}],"headers":{},"statusCode":"OK","statusCodeValue":200},"statusCode":"OK","statusCodeValue":200}
+[2m2020-03-11 16:19:09.989[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-4] [com.dock.lw.common.handler.AccessLog] AccessLog.java:59 - StopWatch 'springfox.documentation.swagger.web.ApiResourceController': running time = 3956242 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+003956242  100%  swaggerResources
+
+[2m2020-03-11 16:19:10.126[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-6] [com.dock.lw.common.handler.AccessLog] AccessLog.java:53 - request = []
+[2m2020-03-11 16:19:10.128[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-6] [com.dock.lw.common.handler.AccessLog] AccessLog.java:55 - response = {"body":{"apiKeyName":"api_key","apiKeyVehicle":"header"},"headers":{"body":{"apiKeyName":"api_key","apiKeyVehicle":"header"},"headers":{},"statusCode":"OK","statusCodeValue":200},"statusCode":"OK","statusCodeValue":200}
+[2m2020-03-11 16:19:10.128[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-6] [com.dock.lw.common.handler.AccessLog] AccessLog.java:59 - StopWatch 'springfox.documentation.swagger.web.ApiResourceController': running time = 2314634 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+002314634  100%  securityConfiguration
+
+[2m2020-03-11 16:19:46.838[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [com.dock.lw.LwApplication] StartupInfoLogger.java:55 - Starting LwApplication on liweideiMac.local with PID 62743 (/Users/liwei/Desktop/work/git/springboot/lw/target/classes started by liwei in /Users/liwei/Desktop/work/git/springboot/lw)
+[2m2020-03-11 16:19:46.843[0;39m DEBUG [33m[dock-lw,,,,][0;39m [main] [com.dock.lw.LwApplication] StartupInfoLogger.java:56 - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+[2m2020-03-11 16:19:46.844[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [com.dock.lw.LwApplication] SpringApplication.java:655 - The following profiles are active: dev
+[2m2020-03-11 16:19:47.897[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-03-11 16:19:47.900[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2020-03-11 16:19:47.939[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 21ms. Found 0 Redis repository interfaces.
+[2m2020-03-11 16:19:48.689[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8083 (http)
+[2m2020-03-11 16:19:48.697[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8083"]
+[2m2020-03-11 16:19:48.698[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2m2020-03-11 16:19:48.698[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+[2m2020-03-11 16:19:48.775[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.a.c.c.ContainerBase.[Tomcat].[localhost].[/lw]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2m2020-03-11 16:19:48.775[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1853 ms
+[2m2020-03-11 16:19:49.807[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2m2020-03-11 16:19:50.184[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+[2m2020-03-11 16:19:50.197[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 2 custom documentation plugin(s)
+[2m2020-03-11 16:19:50.224[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2m2020-03-11 16:19:50.534[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2m2020-03-11 16:19:50.544[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8083"]
+[2m2020-03-11 16:19:50.566[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8083 (http) with context path '/lw'
+[2m2020-03-11 16:19:50.570[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [com.dock.lw.LwApplication] StartupInfoLogger.java:61 - Started LwApplication in 4.527 seconds (JVM running for 5.96)
+[2m2020-03-11 16:19:57.820[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-6] [o.a.c.c.ContainerBase.[Tomcat].[localhost].[/lw]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2020-03-11 16:19:57.821[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-6] [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2m2020-03-11 16:19:57.828[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-6] [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 7 ms
+[2m2020-03-11 16:19:57.858[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-4] [com.dock.lw.common.handler.ApiInterceptor] ApiInterceptor.java:44 - reqURI = /lw/error, reqMethod = GET, token = null
+[2m2020-03-11 16:19:57.875[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-7] [com.dock.lw.common.handler.ApiInterceptor] ApiInterceptor.java:44 - reqURI = /lw/error, reqMethod = GET, token = null
+[2m2020-03-11 16:19:57.910[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-1] [com.dock.lw.common.handler.AccessLog] AccessLog.java:53 - request = []
+[2m2020-03-11 16:19:57.910[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-6] [com.dock.lw.common.handler.AccessLog] AccessLog.java:53 - request = []
+[2m2020-03-11 16:19:57.912[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-2] [com.dock.lw.common.handler.AccessLog] AccessLog.java:53 - request = []
+[2m2020-03-11 16:19:58.106[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-6] [com.dock.lw.common.handler.AccessLog] AccessLog.java:55 - response = {"body":[{"location":"/v2/api-docs?group=app","name":"app","swaggerVersion":"2.0"},{"location":"/v2/api-docs?group=manage","name":"manage","swaggerVersion":"2.0"}],"headers":{"body":[{"location":"/v2/api-docs?group=app","name":"app","swaggerVersion":"2.0"},{"location":"/v2/api-docs?group=manage","name":"manage","swaggerVersion":"2.0"}],"headers":{},"statusCode":"OK","statusCodeValue":200},"statusCode":"OK","statusCodeValue":200}
+[2m2020-03-11 16:19:58.107[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-2] [com.dock.lw.common.handler.AccessLog] AccessLog.java:55 - response = {"body":{"apiKeyName":"api_key","apiKeyVehicle":"header"},"headers":{"body":{"apiKeyName":"api_key","apiKeyVehicle":"header"},"headers":{},"statusCode":"OK","statusCodeValue":200},"statusCode":"OK","statusCodeValue":200}
+[2m2020-03-11 16:19:58.108[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-2] [com.dock.lw.common.handler.AccessLog] AccessLog.java:59 - StopWatch 'springfox.documentation.swagger.web.ApiResourceController': running time = 249553996 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+249553996  100%  securityConfiguration
+
+[2m2020-03-11 16:19:58.109[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-6] [com.dock.lw.common.handler.AccessLog] AccessLog.java:59 - StopWatch 'springfox.documentation.swagger.web.ApiResourceController': running time = 248287906 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+248287906  100%  swaggerResources
+
+[2m2020-03-11 16:19:58.110[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-1] [com.dock.lw.common.handler.AccessLog] AccessLog.java:55 - response = {"body":{"apisSorter":"alpha","defaultModelRendering":"schema","docExpansion":"none","jsonEditor":false,"showRequestHeaders":true,"supportedSubmitMethods":["get","post","put","delete","patch"]},"headers":{"body":{"apisSorter":"alpha","defaultModelRendering":"schema","docExpansion":"none","jsonEditor":false,"showRequestHeaders":true,"supportedSubmitMethods":["get","post","put","delete","patch"]},"headers":{},"statusCode":"OK","statusCodeValue":200},"statusCode":"OK","statusCodeValue":200}
+[2m2020-03-11 16:19:58.111[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-1] [com.dock.lw.common.handler.AccessLog] AccessLog.java:59 - StopWatch 'springfox.documentation.swagger.web.ApiResourceController': running time = 252780944 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+252780944  100%  uiConfiguration
+
+[2m2020-03-11 16:19:58.139[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-4] [io.lettuce.core.EpollProvider] EpollProvider.java:68 - Starting without optional epoll library
+[2m2020-03-11 16:19:58.142[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-4] [io.lettuce.core.KqueueProvider] KqueueProvider.java:70 - Starting without optional kqueue library
+[2m2020-03-11 16:19:58.350[0;39m WARN  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-7] [c.d.lw.common.handler.BusinessInterceptorHandler] BusinessInterceptorHandler.java:42 - 用户未登录或token过期 token = null
+[2m2020-03-11 16:19:58.358[0;39m WARN  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-4] [c.d.lw.common.handler.BusinessInterceptorHandler] BusinessInterceptorHandler.java:42 - 用户未登录或token过期 token = null
+[2m2020-03-11 16:20:52.338[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [com.dock.lw.LwApplication] StartupInfoLogger.java:55 - Starting LwApplication on liweideiMac.local with PID 62777 (/Users/liwei/Desktop/work/git/springboot/lw/target/classes started by liwei in /Users/liwei/Desktop/work/git/springboot/lw)
+[2m2020-03-11 16:20:52.341[0;39m DEBUG [33m[dock-lw,,,,][0;39m [main] [com.dock.lw.LwApplication] StartupInfoLogger.java:56 - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+[2m2020-03-11 16:20:52.341[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [com.dock.lw.LwApplication] SpringApplication.java:655 - The following profiles are active: dev
+[2m2020-03-11 16:20:53.238[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-03-11 16:20:53.240[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2020-03-11 16:20:53.310[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 32ms. Found 0 Redis repository interfaces.
+[2m2020-03-11 16:20:54.069[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8083 (http)
+[2m2020-03-11 16:20:54.079[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8083"]
+[2m2020-03-11 16:20:54.080[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2m2020-03-11 16:20:54.081[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+[2m2020-03-11 16:20:54.162[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.a.c.c.ContainerBase.[Tomcat].[localhost].[/lw]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2m2020-03-11 16:20:54.162[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1756 ms
+[2m2020-03-11 16:20:56.772[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2m2020-03-11 16:20:57.185[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+[2m2020-03-11 16:20:57.198[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 2 custom documentation plugin(s)
+[2m2020-03-11 16:20:57.229[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2m2020-03-11 16:20:57.401[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [s.d.s.w.r.operation.CachingOperationNameGenerator] CachingOperationNameGenerator.java:40 - Generating unique operation named: queryUsingPOST_1
+[2m2020-03-11 16:20:57.419[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2m2020-03-11 16:20:57.432[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8083"]
+[2m2020-03-11 16:20:57.462[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8083 (http) with context path '/lw'
+[2m2020-03-11 16:20:57.467[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [com.dock.lw.LwApplication] StartupInfoLogger.java:61 - Started LwApplication in 5.72 seconds (JVM running for 6.623)
+[2m2020-03-11 16:21:07.370[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-4] [o.a.c.c.ContainerBase.[Tomcat].[localhost].[/lw]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2020-03-11 16:21:07.371[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-4] [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2m2020-03-11 16:21:07.378[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-4] [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 7 ms
+[2m2020-03-11 16:21:07.408[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-2] [com.dock.lw.common.handler.ApiInterceptor] ApiInterceptor.java:44 - reqURI = /lw/error, reqMethod = GET, token = null
+[2m2020-03-11 16:21:07.427[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-7] [com.dock.lw.common.handler.ApiInterceptor] ApiInterceptor.java:44 - reqURI = /lw/error, reqMethod = GET, token = null
+[2m2020-03-11 16:21:07.463[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-6] [com.dock.lw.common.handler.AccessLog] AccessLog.java:53 - request = []
+[2m2020-03-11 16:21:07.463[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-3] [com.dock.lw.common.handler.AccessLog] AccessLog.java:53 - request = []
+[2m2020-03-11 16:21:07.465[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-4] [com.dock.lw.common.handler.AccessLog] AccessLog.java:53 - request = []
+[2m2020-03-11 16:21:07.645[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-4] [com.dock.lw.common.handler.AccessLog] AccessLog.java:55 - response = {"body":[{"location":"/v2/api-docs?group=app","name":"app","swaggerVersion":"2.0"},{"location":"/v2/api-docs?group=manage","name":"manage","swaggerVersion":"2.0"}],"headers":{"body":[{"location":"/v2/api-docs?group=app","name":"app","swaggerVersion":"2.0"},{"location":"/v2/api-docs?group=manage","name":"manage","swaggerVersion":"2.0"}],"headers":{},"statusCode":"OK","statusCodeValue":200},"statusCode":"OK","statusCodeValue":200}
+[2m2020-03-11 16:21:07.646[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-4] [com.dock.lw.common.handler.AccessLog] AccessLog.java:59 - StopWatch 'springfox.documentation.swagger.web.ApiResourceController': running time = 232840487 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+232840487  100%  swaggerResources
+
+[2m2020-03-11 16:21:07.647[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-6] [com.dock.lw.common.handler.AccessLog] AccessLog.java:55 - response = {"body":{"apiKeyName":"api_key","apiKeyVehicle":"header"},"headers":{"body":{"apiKeyName":"api_key","apiKeyVehicle":"header"},"headers":{},"statusCode":"OK","statusCodeValue":200},"statusCode":"OK","statusCodeValue":200}
+[2m2020-03-11 16:21:07.648[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-6] [com.dock.lw.common.handler.AccessLog] AccessLog.java:59 - StopWatch 'springfox.documentation.swagger.web.ApiResourceController': running time = 234858107 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+234858107  100%  securityConfiguration
+
+[2m2020-03-11 16:21:07.649[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-3] [com.dock.lw.common.handler.AccessLog] AccessLog.java:55 - response = {"body":{"apisSorter":"alpha","defaultModelRendering":"schema","docExpansion":"none","jsonEditor":false,"showRequestHeaders":true,"supportedSubmitMethods":["get","post","put","delete","patch"]},"headers":{"body":{"apisSorter":"alpha","defaultModelRendering":"schema","docExpansion":"none","jsonEditor":false,"showRequestHeaders":true,"supportedSubmitMethods":["get","post","put","delete","patch"]},"headers":{},"statusCode":"OK","statusCodeValue":200},"statusCode":"OK","statusCodeValue":200}
+[2m2020-03-11 16:21:07.649[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-3] [com.dock.lw.common.handler.AccessLog] AccessLog.java:59 - StopWatch 'springfox.documentation.swagger.web.ApiResourceController': running time = 236336899 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+236336899  100%  uiConfiguration
+
+[2m2020-03-11 16:21:07.678[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-2] [io.lettuce.core.EpollProvider] EpollProvider.java:68 - Starting without optional epoll library
+[2m2020-03-11 16:21:07.680[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-2] [io.lettuce.core.KqueueProvider] KqueueProvider.java:70 - Starting without optional kqueue library
+[2m2020-03-11 16:21:07.960[0;39m WARN  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-2] [c.d.lw.common.handler.BusinessInterceptorHandler] BusinessInterceptorHandler.java:42 - 用户未登录或token过期 token = null
+[2m2020-03-11 16:21:07.980[0;39m WARN  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-7] [c.d.lw.common.handler.BusinessInterceptorHandler] BusinessInterceptorHandler.java:42 - 用户未登录或token过期 token = null
+[2m2020-03-11 16:21:54.230[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [com.dock.lw.LwApplication] StartupInfoLogger.java:55 - Starting LwApplication on liweideiMac.local with PID 62806 (/Users/liwei/Desktop/work/git/springboot/lw/target/classes started by liwei in /Users/liwei/Desktop/work/git/springboot/lw)
+[2m2020-03-11 16:21:54.235[0;39m DEBUG [33m[dock-lw,,,,][0;39m [main] [com.dock.lw.LwApplication] StartupInfoLogger.java:56 - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+[2m2020-03-11 16:21:54.236[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [com.dock.lw.LwApplication] SpringApplication.java:655 - The following profiles are active: dev
+[2m2020-03-11 16:21:55.285[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-03-11 16:21:55.287[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2020-03-11 16:21:55.319[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+[2m2020-03-11 16:21:56.094[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8083 (http)
+[2m2020-03-11 16:21:56.106[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8083"]
+[2m2020-03-11 16:21:56.107[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2m2020-03-11 16:21:56.108[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+[2m2020-03-11 16:21:56.196[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.a.c.c.ContainerBase.[Tomcat].[localhost].[/lw]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2m2020-03-11 16:21:56.196[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1856 ms
+[2m2020-03-11 16:21:57.524[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2m2020-03-11 16:21:57.906[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+[2m2020-03-11 16:21:57.919[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 2 custom documentation plugin(s)
+[2m2020-03-11 16:21:57.949[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2m2020-03-11 16:21:58.083[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [s.d.s.w.r.operation.CachingOperationNameGenerator] CachingOperationNameGenerator.java:40 - Generating unique operation named: queryUsingPOST_1
+[2m2020-03-11 16:21:58.096[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2m2020-03-11 16:21:58.116[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [s.d.s.w.r.operation.CachingOperationNameGenerator] CachingOperationNameGenerator.java:40 - Generating unique operation named: queryUsingPOST_2
+[2m2020-03-11 16:21:58.130[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8083"]
+[2m2020-03-11 16:21:58.152[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8083 (http) with context path '/lw'
+[2m2020-03-11 16:21:58.157[0;39m INFO  [33m[dock-lw,,,,][0;39m [main] [com.dock.lw.LwApplication] StartupInfoLogger.java:61 - Started LwApplication in 4.547 seconds (JVM running for 5.529)
+[2m2020-03-11 16:22:52.652[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-1] [o.a.c.c.ContainerBase.[Tomcat].[localhost].[/lw]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2020-03-11 16:22:52.654[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-1] [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2m2020-03-11 16:22:52.661[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-1] [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 7 ms
+[2m2020-03-11 16:22:52.693[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-4] [com.dock.lw.common.handler.ApiInterceptor] ApiInterceptor.java:44 - reqURI = /lw/error, reqMethod = GET, token = null
+[2m2020-03-11 16:22:52.703[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-7] [com.dock.lw.common.handler.ApiInterceptor] ApiInterceptor.java:44 - reqURI = /lw/error, reqMethod = GET, token = null
+[2m2020-03-11 16:22:52.752[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-2] [com.dock.lw.common.handler.AccessLog] AccessLog.java:53 - request = []
+[2m2020-03-11 16:22:52.752[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-3] [com.dock.lw.common.handler.AccessLog] AccessLog.java:53 - request = []
+[2m2020-03-11 16:22:52.752[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-5] [com.dock.lw.common.handler.AccessLog] AccessLog.java:53 - request = []
+[2m2020-03-11 16:22:52.955[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-5] [com.dock.lw.common.handler.AccessLog] AccessLog.java:55 - response = {"body":[{"location":"/v2/api-docs?group=app","name":"app","swaggerVersion":"2.0"},{"location":"/v2/api-docs?group=manage","name":"manage","swaggerVersion":"2.0"}],"headers":{"body":[{"location":"/v2/api-docs?group=app","name":"app","swaggerVersion":"2.0"},{"location":"/v2/api-docs?group=manage","name":"manage","swaggerVersion":"2.0"}],"headers":{},"statusCode":"OK","statusCodeValue":200},"statusCode":"OK","statusCodeValue":200}
+[2m2020-03-11 16:22:52.955[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-2] [com.dock.lw.common.handler.AccessLog] AccessLog.java:55 - response = {"body":{"apisSorter":"alpha","defaultModelRendering":"schema","docExpansion":"none","jsonEditor":false,"showRequestHeaders":true,"supportedSubmitMethods":["get","post","put","delete","patch"]},"headers":{"body":{"apisSorter":"alpha","defaultModelRendering":"schema","docExpansion":"none","jsonEditor":false,"showRequestHeaders":true,"supportedSubmitMethods":["get","post","put","delete","patch"]},"headers":{},"statusCode":"OK","statusCodeValue":200},"statusCode":"OK","statusCodeValue":200}
+[2m2020-03-11 16:22:52.955[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-3] [com.dock.lw.common.handler.AccessLog] AccessLog.java:55 - response = {"body":{"apiKeyName":"api_key","apiKeyVehicle":"header"},"headers":{"body":{"apiKeyName":"api_key","apiKeyVehicle":"header"},"headers":{},"statusCode":"OK","statusCodeValue":200},"statusCode":"OK","statusCodeValue":200}
+[2m2020-03-11 16:22:52.956[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-2] [com.dock.lw.common.handler.AccessLog] AccessLog.java:59 - StopWatch 'springfox.documentation.swagger.web.ApiResourceController': running time = 262628889 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+262628889  100%  uiConfiguration
+
+[2m2020-03-11 16:22:52.956[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-5] [com.dock.lw.common.handler.AccessLog] AccessLog.java:59 - StopWatch 'springfox.documentation.swagger.web.ApiResourceController': running time = 262628629 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+262628629  100%  swaggerResources
+
+[2m2020-03-11 16:22:52.956[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-3] [com.dock.lw.common.handler.AccessLog] AccessLog.java:59 - StopWatch 'springfox.documentation.swagger.web.ApiResourceController': running time = 263242455 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+263242455  100%  securityConfiguration
+
+[2m2020-03-11 16:22:52.991[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-4] [io.lettuce.core.EpollProvider] EpollProvider.java:68 - Starting without optional epoll library
+[2m2020-03-11 16:22:52.993[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-4] [io.lettuce.core.KqueueProvider] KqueueProvider.java:70 - Starting without optional kqueue library
+[2m2020-03-11 16:22:53.226[0;39m WARN  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-4] [c.d.lw.common.handler.BusinessInterceptorHandler] BusinessInterceptorHandler.java:42 - 用户未登录或token过期 token = null
+[2m2020-03-11 16:22:53.230[0;39m WARN  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-7] [c.d.lw.common.handler.BusinessInterceptorHandler] BusinessInterceptorHandler.java:42 - 用户未登录或token过期 token = null
+[2m2020-03-11 16:22:55.444[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-9] [com.dock.lw.common.handler.AccessLog] AccessLog.java:53 - request = []
+[2m2020-03-11 16:22:55.445[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-9] [com.dock.lw.common.handler.AccessLog] AccessLog.java:55 - response = {"body":{"apiKeyName":"api_key","apiKeyVehicle":"header"},"headers":{"body":{"apiKeyName":"api_key","apiKeyVehicle":"header"},"headers":{},"statusCode":"OK","statusCodeValue":200},"statusCode":"OK","statusCodeValue":200}
+[2m2020-03-11 16:22:55.446[0;39m INFO  [33m[dock-lw,,,,][0;39m [http-nio-8083-exec-9] [com.dock.lw.common.handler.AccessLog] AccessLog.java:59 - StopWatch 'springfox.documentation.swagger.web.ApiResourceController': running time = 1302266 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001302266  100%  securityConfiguration
+
