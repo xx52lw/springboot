@@ -21,7 +21,7 @@
 		<mybatis-plus-generator.version>3.3.0</mybatis-plus-generator.version>
 		<spring-boot-starter-data-redis.version>2.1.5.RELEASE</spring-boot-starter-data-redis.version>
 
-		<swagger2.version>2.7.0</swagger2.version>
+		<swagger2.version>2.10.0</swagger2.version>
 		<aspectj.version>1.9.4</aspectj.version>
 		<easypoi.version>3.2.0</easypoi.version>
 		<lombok.version>1.18.12</lombok.version>
